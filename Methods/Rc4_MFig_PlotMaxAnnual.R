@@ -33,7 +33,7 @@ library(ggpubr)
 
 # load data
 
-data <- read_excel("./Methods/BitacoraClimateScenarioV2.xlsx",sheet=1); head(data)
+data <- read_excel("./Methods/ClimateScenarioData.xlsx",sheet=1); head(data)
 
 # preparacion de la tabla
 
