@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20210413</CreaDate><CreaTime>21371300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.7\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20210413" Time="213713">RasterCalculator ""maskara" * "filldem1"" D:\DoctTenaFloods\2landscapefloods\ParametersEstimation\Raster\filldem</Process></lineage></DataProperties></Esri></metadata>
