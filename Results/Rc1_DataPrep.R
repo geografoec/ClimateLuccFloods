@@ -32,8 +32,6 @@ graphics.off()    #clean plots
 
 # load data
 
-#setwd("C:/JorgeR/DoctTenaFloods/3lulcclimatefloods/MHydrologicalModeling/TetisOutputs/N5_SeriesOutput42pts")
-
 list.series <- list()
 Qid <- sprintf("Q%d", 1:42)
 names <- list(c("Dt", Qid))
@@ -84,8 +82,6 @@ s7tr10 <- list()
 s8tr10 <- list()
 
 q.tr10 <- list()
-#varname <- data.frame(Qid)
-#sheet_names <- data.frame(excel_sheets("./N5QSeriesTetisLuccClimateFloods.xlsx")); sheet_names
 
 for(i in 1:42){
   
@@ -116,8 +112,6 @@ s11tr100 <- list()
 s12tr100 <- list()
 
 q.tr100 <- list()
-#varname <- data.frame(Qid)
-#sheet_names <- data.frame(excel_sheets("./N5QSeriesTetisLuccClimateFloods.xlsx")); sheet_names
 
 for(i in 1:42){
   
