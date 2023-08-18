@@ -29,28 +29,34 @@ tormentas$dt <- seq(10,(length(tormentas$tr2a))*10,10)
 
 h1 <- barplot(tormentas$tr2a, width=1, space=NULL,names.arg = tormentas$dt, 
               col="grey",border="black", axis.lty=1, ylim = c(0,35),
+              cex.axis = 1.5,cex.names = 1.5,cex.lab = 1.5,
               main= "Storm Rp2", xlab="Time (min)", ylab="Intensity (mm/10min)")
 
 h2 <- barplot(tormentas$tr10a, width=1, space=NULL,names.arg = tormentas$dt, 
               col="grey",border="black", axis.lty=1, ylim = c(0,35),
+              cex.axis = 1.5,cex.names = 1.5,cex.lab = 1.5,
               main= "Storm Rp10", xlab="Time (min)", ylab="Intensity (mm/10min)")
 
 h3 <- barplot(tormentas$tr100a, width=1, space=NULL,names.arg = tormentas$dt, 
               col="grey",border="black", axis.lty=1, ylim = c(0,35),
+              cex.axis = 1.5,cex.names = 1.5,cex.lab = 1.5,
               main= "Storm Rp100", xlab="Time (min)", ylab="Intensity (mm/10min)")
 
 # IPSL (futuro)
 
 h4 <- barplot(tormentas$tr2f, width=1, space=NULL,names.arg = tormentas$dt, 
               col="grey",border="black", axis.lty=1, ylim = c(0,40),
+              cex.axis = 1.5,cex.names = 1.5,cex.lab = 1.5,
               main= "Storm Rp2", xlab="Time (min)", ylab="Intensity (mm/10min)")
 
 h5 <- barplot(tormentas$tr10f, width=1, space=NULL,names.arg = tormentas$dt, 
               col="grey",border="black", axis.lty=1, ylim = c(0,40),
+              cex.axis = 1.5,cex.names = 1.5,cex.lab = 1.5,
               main= "Storm Rp10", xlab="Time (min)", ylab="Intensity (mm/10min)")
 
 h6 <- barplot(tormentas$tr100f, width=1, space=NULL,names.arg = tormentas$dt, 
               col="grey",border="black", axis.lty=1, ylim = c(0,40),
+              cex.axis = 1.5,cex.names = 1.5,cex.lab = 1.5,
               main= "Storm Rp100", xlab="Time (min)", ylab="Intensity (mm/10min)")
 
 # ggarrange(h1,h2,h3,h4,h5,h6, 
