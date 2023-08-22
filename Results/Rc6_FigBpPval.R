@@ -70,7 +70,7 @@ d_datatr2$group <- fct_relevel(d_datatr2$group, .order = orden_deseado_tr2)
         geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
         coord_cartesian(ylim = c(0, 1))+
         stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-        stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+        stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
         labs(title = "", x = "", 
              y = "Dunn test p-value", show.legend = F)+
         
@@ -119,7 +119,7 @@ d_datatr10$group <- fct_relevel(d_datatr10$group, .order = orden_deseado_tr10)
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 1))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = "Dunn test p-value", show.legend = F)+
     
@@ -168,7 +168,7 @@ d_datatr100$group <- fct_relevel(d_datatr100$group, .order = orden_deseado_tr100
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 1))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = "Dunn test p-value", show.legend = F)+
     
@@ -224,7 +224,7 @@ s_datatr2$group <- fct_relevel(s_datatr2$group, .order = orden_deseado_tr2)
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 1))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = "Scheirer-Ray-Hare test p-value", show.legend = F)+
     
@@ -270,7 +270,7 @@ s_datatr10$group <- fct_relevel(s_datatr10$group, .order = orden_deseado_tr10)
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 1))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = "Scheirer-Ray-Hare test p-value", show.legend = F)+
     
@@ -315,7 +315,7 @@ s_datatr100$group <- fct_relevel(s_datatr100$group, .order = orden_deseado_tr100
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 1))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = "Scheirer-Ray-Hare test p-value", show.legend = F)+
     

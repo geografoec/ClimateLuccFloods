@@ -67,7 +67,7 @@ q_datatr2$group <- fct_relevel(q_datatr2$group, .order = orden_deseado_tr2)
        geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
        coord_cartesian(ylim = c(0, 1000))+
        stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-       stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+       stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
        labs(title = "", x = "", 
            y = expression(paste("Peak flow difference (", m^3, "/s)")), show.legend = F)+
       
@@ -114,7 +114,7 @@ q_datatr10$group <- fct_relevel(q_datatr10$group, .order = orden_deseado_tr10)
        geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
        coord_cartesian(ylim = c(0, 1000))+
        stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-       stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+       stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
        labs(title = "", x = "", 
             y = expression(paste("Peak flow difference (", m^3, "/s)")), show.legend = F)+
        
@@ -162,7 +162,7 @@ q_datatr100$group <- fct_relevel(q_datatr100$group, .order = orden_deseado_tr100
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 1000))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = expression(paste("Peak flow difference (", m^3, "/s)")), show.legend = F)+
     
@@ -214,7 +214,7 @@ v_datatr2$group <- fct_relevel(v_datatr2$group, .order = orden_deseado_tr2)
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 5))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones est&ar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = expression(paste("Stormflow difference ( ", Hm^3, ")")), show.legend = F)+
     
@@ -261,7 +261,7 @@ v_datatr10$group <- fct_relevel(v_datatr10$group, .order = orden_deseado_tr10)
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 5))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = expression(paste("Stormflow difference ( ", Hm^3, ")")), show.legend = F)+
     
@@ -309,7 +309,7 @@ v_datatr100$group <- fct_relevel(v_datatr100$group, .order = orden_deseado_tr100
     geom_boxplot(width=0.5,alpha=0.7,show.legend = F)+
     coord_cartesian(ylim = c(0, 5))+
     stat_summary(fun.data = mean_sdl, fun.args = list(mult = 1), geom = "errorbar", width = 0.2,show.legend = F) +     # mean_sld grafica las barras de las desviaciones estandar, mult 1 indican 1 desviacion estandar
-    stat_summary(fun = mean, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
+    stat_summary(fun = median, geom = "point", shape = 1,size = 3, color = "black",show.legend = F) +
     labs(title = "", x = "", 
          y = expression(paste("Stormflow difference ( ", Hm^3, ")")), show.legend = F)+
     
