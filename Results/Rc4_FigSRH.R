@@ -1,12 +1,9 @@
-
 # Proyecto Inundaciones Tena
-# Objetivo 2: Interaccion entre cambio climatico y de cobertura del suelo
 
 # Autor: Jorge Hurtado - Pidal
 # Fecha: 22 de marzo de 2023
 
-# Figura N3 de la seccion resultados del articulo N3
-# Contribucion individual e interacciones con Scheirer-Ray-Hare test
+# Fig. 6. and Fig. 7. Isolated effects with Scheirer-Ray-Hare test.
 
 # .................................................................................................
 

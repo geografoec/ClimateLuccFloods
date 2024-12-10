@@ -1,4 +1,4 @@
-# MAPA DE UBICACION PARA ARTICULO
+# Fig. 1. Map of the Tena watershed.
 
 # Editado por: Jorge Hurtado
 

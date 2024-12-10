@@ -3,6 +3,8 @@
 # Graficos de hietogramas de disenio. 
 # Seccion de metodologia del articulo "climate change, lucc, floods"
 
+# Fig. 4. Design storms for Rp2, Rp10, and Rp100 return periods.
+
 # ........................................................................................................
 
 rm(list = ls()) # liberar espacio de memoria

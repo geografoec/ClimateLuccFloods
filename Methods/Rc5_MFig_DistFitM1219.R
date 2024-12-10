@@ -9,6 +9,8 @@
 # b. Hacer al ajuste a varias distribuciones teoricas (weibull, gamma, lognormal, normal)  
 # c. Evaluar el ajuste para seleccionar el mejor modelo
 
+# Fig. 3. Fitted extreme value distributions. 
+
 #..................................................................................................
 
 # Preparing the environment

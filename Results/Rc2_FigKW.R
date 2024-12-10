@@ -1,11 +1,9 @@
 # Proyecto Inundaciones Tena
-# Objetivo 2: Interaccion entre cambio climatico y de cobertura del suelo
 
 # Autor: Jorge Hurtado - Pidal
 # Fecha: 20 de marzo de 2023
 
-# Figura N1 de la seccion resultados del articulo N3
-# Diferencia entre todos los escenarios con el test de kruskal-Wallis
+# Fig. 8. Effect of climate change and LUCC on floods with kruskal-Wallis
 
 # .................................................................................................
 
