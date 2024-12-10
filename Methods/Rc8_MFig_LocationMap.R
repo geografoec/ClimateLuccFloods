@@ -23,13 +23,10 @@ graphics.off()    #clean plots
 # libraries
 
 {
-#library(mapview)
 library(rasterVis)
 library(rayshader)
 library(tidyverse)
 library(tmap)
-#library(rgeos)
-#library(sp)
 library(rgdal)
 library(raster)
 library(RColorBrewer)
