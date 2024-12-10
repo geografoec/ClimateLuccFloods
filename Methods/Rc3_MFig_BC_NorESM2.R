@@ -1,6 +1,6 @@
 # El objetivo de este script es hacer una correcion del bias con el m?todo "quantite mapping"
 # Los datos diarios de lluvia observada son de la estacion meteorol?gica M1219-Tena Hda Chaupishungo 
-# (-0.9168;-77.819) rellenos con missForest y los datos simulados son del CMIP6-NorESM2 (historical) 
+# (-0.9168;-77.819) y los datos simulados son del CMIP6-NorESM2 (historical) 
 
 # Editado por: Jorge Hurtado-Pidal
 # Fecha: 18 octubre de 2022
@@ -14,6 +14,8 @@
 #    y estad?sticos (RMSE, PBIAS, entre otros), con el 30% de datos restantes (test data set)
 # d. Repetir la validaci?n a escala anual.
 # e. Preparar las series diarias y anuales del escenario futuro
+
+# Fig. 2. Precipitation intensity corrections of raw GCMs.
 
 #...................................................................................................
 
