@@ -228,9 +228,9 @@ plot(area_rios)
   tm_shape(tetisim) +
   tm_dots(shape = 19, size=0.8,col = "black")+
   tm_shape(meteo_utm) +
-  tm_dots(shape = 15, size=0.8,col = "red")+
+  tm_dots(shape = 15, size=1.5,col = "orange")+
   tm_shape(hidro_utm) +
-  tm_dots(shape = 17, size=0.8,col = "green") +
+  tm_dots(shape = 17, size=1.5,col = "green") +
   
   tm_grid(ticks = T,lines = F ,labels.size = 1,projection = 4326)
 
