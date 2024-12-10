@@ -1,6 +1,6 @@
 # El objetivo de este script es hacer una correcion del bias con el m?todo "quantite mapping"
 # Los datos diarios de lluvia observada son de la estacion meteorol?gica M1219-Tena Hda Chaupishungo 
-# (-0.9168;-77.819) rellenos con missForest y los datos simulados son del CMIP6-IPSL (historical) 
+# (-0.9168;-77.819) y los datos simulados son del CMIP6-IPSL (historical) 
 
 # Editado por: Jorge Hurtado-Pidal
 # Fecha: 12 abril de 2023
@@ -15,13 +15,14 @@
 # d. Repetir la validaci?n a escala anual.
 # e. Preparar las series diarias y anuales del escenario futuro
 
+# Fig. 2. Precipitation intensity corrections of raw GCMs.
+
 #...................................................................................................
 
 # Preparing the environment
 cat("\014")   
 rm(list = ls())
 graphics.off()
-#load("D:/DoctTenaFloods/3lulcclimatefloods/ClimateScenario/BiasCorrection/RWorkingSpace/rcode8_wspace.RData")
 
 # libraries
 
