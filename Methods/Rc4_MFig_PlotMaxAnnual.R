@@ -10,6 +10,8 @@
 # b. Hacer al ajuste a varias distribuciones teoricas (weibull, gamma, lognormal, normal)  
 # c. Evaluar el ajuste para seleccionar el mejor modelo
 
+# Fig. 2. Precipitation intensity corrections of raw GCMs.
+
 #..................................................................................................
 
 # Preparing the environment
