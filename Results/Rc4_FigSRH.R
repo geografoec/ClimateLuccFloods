@@ -3,7 +3,8 @@
 # Autor: Jorge Hurtado - Pidal
 # Fecha: 22 de marzo de 2023
 
-# Fig. 6. and Fig. 7. Isolated effects with Scheirer-Ray-Hare test.
+# Fig. 6. Isolated effects of climate change on floods with Scheirer-Ray-Hare test.
+# Fig. 7. Isolated effects of LUCC on floods with Scheirer-Ray-Hare test.
 
 # .................................................................................................
 

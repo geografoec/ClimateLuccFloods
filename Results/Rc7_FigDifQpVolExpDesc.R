@@ -5,8 +5,10 @@
 # Autor: Jorge Hurtado - Pidal
 # Fecha: 29 de marzo de 2023
 
-# Figura N6 de la seccion resultados del articulo N3
 # Diferencias absolutas de caudal punta (q) y volumen de escorrentia (v) con modelo exponencial y lineal
+
+# Fig. 9. isolated (Fig. 9a,b,d and e) and combined (Fig. 9c and f) effects of climate change and LUCC over peak flows and flow volumes for the three return periods on the basin elevation across the sampling sites.
+# Note: Apologies for the typo error in the numbering of panels in the article
 
 # ..................................................................................................
 

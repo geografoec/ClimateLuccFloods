@@ -3,7 +3,7 @@
 # Autor: Jorge Hurtado - Pidal
 # Fecha: 21 de marzo de 2023
 
-# Fig. 8. Effect of climate change and LUCC on floods with kruskal-Wallis with Dunn test
+# Fig. 8b. Dunn test
 
 # .................................................................................................
 

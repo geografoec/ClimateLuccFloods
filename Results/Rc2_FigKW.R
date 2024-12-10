@@ -3,7 +3,7 @@
 # Autor: Jorge Hurtado - Pidal
 # Fecha: 20 de marzo de 2023
 
-# Fig. 8. Effect of climate change and LUCC on floods with kruskal-Wallis
+# Fig. 8a. kruskal-Wallis test.
 
 # .................................................................................................
 
